@@ -31,6 +31,6 @@ mysql -u root
 puedo manejarme con USE DATABASENOMBRE(HuguitDb);
 SHOW TABLES;
 DESC users;
-
+select from * tasks;
 ---------- ----------
  python main.py create-user hugo --email hugo@ms.com# PYTHON-cli-con-argumentos-comandos-opciones-y-banderas

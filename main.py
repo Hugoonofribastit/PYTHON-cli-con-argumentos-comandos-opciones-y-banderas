@@ -2,7 +2,7 @@
 import click
 import peewee
 
-database = peewee.MySQLDatabase('HuguitDb', user='root', passwd='', host='localhost', port=3306)
+database = peewee.MySQLDatabase('HuguitDb', user='root', passwd='123456', host='localhost', port=3306)
 
 class User(peewee.Model):
     username = peewee.CharField(max_length=50, unique=True, null=True)
